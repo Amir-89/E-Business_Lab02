@@ -1,0 +1,114 @@
+/* styles.css */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+	padding: 30px;
+	line-height: 2em;
+}
+
+header {
+	background-color: #CCCCCC;
+	height: 190px;
+	position: relative;
+}
+
+header h1 {
+	
+	line-height: 180px;
+	vertical-align: middle;
+	
+	font-size: 48px;
+	text-align: center;
+	padding-right: 10%;
+	
+}
+
+.wrapper {
+	background-color: black;
+	height: 500px;
+	position: relative;
+}
+
+main {
+	width: 80%;
+	position: absolute;
+	margin: 20px 10%;
+	background-color: white;
+	padding: 20px 0;
+}
+
+
+
+.second-level-menu {
+	display: none;
+}
+
+.top-level-menu li:hover ul {
+    display: inline;
+}
+
+.top-level-menu li {
+	list-style:none;
+}
+
+.top-level-menu a {
+	font-weight: bold;
+    text-decoration: none;
+	font-size: 20px;
+	/* Make the link cover the width of li */
+	display: block;
+}
+
+.top-level-menu li {
+	float:left;
+	height: 40px;
+	width: 130px;
+	background-color: #999999;
+}
+
+/* set padding, margin for top menu */
+.top-level-menu {
+	padding: 0 0 0 10px;
+	margin: 10px 0 0 35%;
+	
+}
+
+/* set height of <a> to fill the <li> */
+.top-level-menu a 
+{
+	line-height: 40px;
+	padding: 0 0 0 10px;
+}
+
+/* white color for <a> */
+.top-level-menu a 
+{
+    color: #FFFFFF;
+}
+/* get rid of space between menus */
+.second-level-menu
+{
+	padding: 0;	
+}
+
+/* set background color for second menu */
+.second-level-menu
+{
+    background: #999999;
+}
+
+/* hover settings for all <a> */
+.top-level-menu a:hover 
+{ 
+	color: #000000; 
+	background: #CCCCCC;
+}
+
+
+
+
+
